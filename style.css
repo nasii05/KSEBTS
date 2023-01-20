@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+}
+
+/* input section */
+.input-section{
+    width: 25rem;
+    height: 43.75rem;
+    background-color: rgb(134, 208, 191);
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    margin-top: 6rem;
+}
+#Username{
+    background-color: transparent;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 16rem;
+    height: 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(212, 94, 94);
+    font-size: 2rem;
+    outline: none;
+  
+}
+#Username:active{
+    outline: none;
+}
+
+#UserNumber{
+    background-color: transparent;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 16rem;
+    height: 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(212, 94, 94);
+    font-size: 2rem;
+    outline: none;
+}
+#UserAddress{
+    background-color: transparent;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 16rem;
+    height: 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(212, 94, 94);
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+}
+#CurrentUnit{
+    background-color: transparent;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 16rem;
+    height: 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(212, 94, 94);
+    font-size: 2rem;
+    outline: none;
+}
+#PreviousUnit{
+    background-color: transparent;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 16rem;
+    height: 2rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(212, 94, 94);
+    font-size: 2rem;
+    outline: none;
+}
+#inputs{
+    margin-top: 7rem;
+}
+#kseb{
+    margin-top: -5rem;
+    width: 10rem;
+    margin-left: 30%;
+}
+#submitbtn{
+    margin-top: 3.75rem;
+    width: 6.25rem;
+    height: 3rem;
+    margin-left: 9rem;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;  
+}
+#submitbtn:hover{
+    cursor: pointer;
+    background-color: rgb(227, 113, 113);
+}
+#submitbtn:active{
+    background-color: rgb(219, 108, 108);
+}
+
+/* Output section */
+
+.output-section{
+    width: 25rem;
+    height: 43.75rem;
+    background-color: rgb(134, 208, 191);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    margin-top: 6rem; 
+}
+h1{
+    font-family: sans-serif;
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.out{
+    color: red;
+}
+
+/* how it looks on mobile */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input-section{
+       margin-left: 0px;
+       margin-top: 0px;
+       overflow-x:auto ;
+    }
+
+    .output-section{
+        margin-left: 0px;
+        margin-top: 10px;
+        overflow-x:auto ;
+    }
+}
